@@ -384,9 +384,9 @@ Progress bars and counts are generated from checklist states when you commit cha
 
   - [ ] Fractional Knapsack Problem **`P0`**
 
-  - [ ] Greedy Coloring of Graphs **`P0`**
+  - [ ] Greedy Coloring of Graphs **`P2`**
 
-  - [ ] Greedy Set Cover **`P0`**
+  - [ ] Greedy Set Cover **`P2`**
 
   - [ ] Huffman Coding **`P1`**
 
@@ -498,7 +498,7 @@ Progress bars and counts are generated from checklist states when you commit cha
 
   - [ ] String Hashing **`P0`**
 
-  - [ ] Suffix Array Construction **`P0`**
+  - [ ] Suffix Array Construction **`P2`**
 
   - [ ] Suffix Automaton **`P2`**
 
@@ -680,13 +680,13 @@ Progress bars and counts are generated from checklist states when you commit cha
 
   - [ ] Count-Min Sketch **`P2`**
 
-  - [ ] Cuckoo Hashing **`P0`**
+  - [ ] Cuckoo Hashing **`P2`**
 
   - [ ] Hash functions **`P0`**
 
   - [ ] Perfect Hashing **`P2`**
 
-  - [ ] Robin Hood Hashing **`P0`**
+  - [ ] Robin Hood Hashing **`P2`**
 
 - [ ] [**Linked Lists**](./Data%20Structures/LinkedList.md) **`P0`**
 
@@ -700,7 +700,7 @@ Progress bars and counts are generated from checklist states when you commit cha
 
     - [ ] Circularly linked lists **`P0`**
 
-    - [ ] Lock-free linked lists **`P0`**
+    - [ ] Lock-free linked lists **`P2`**
 
   - [ ] Skip lists **`P1`**
 
@@ -812,7 +812,7 @@ Progress bars and counts are generated from checklist states when you commit cha
 
     - [ ] Key-value **`P1`**
 
-- [x] [Relational databases (SQL)](./Databases/Relational%20databases%20%28SQL%29/Overview.md) **`P0`**
+- [x] [Relational databases (SQL)](./Databases/relational-db-overview.md) **`P0`**
 
   - [x] [Database Constraints](./Databases/Database%20Constraints/Overview.md) **`P1`**
 
@@ -1872,19 +1872,11 @@ Before calling a topic “done,” check whether you can explain and apply it un
 
 ## How to Use
 
-1\\\\. **Clone the Repository**: Clone this repository to your local machine using Git.
-
-2\\\\. **Navigate to Domains**: Explore the `Domains` directory to find checklists for different domains/topics.
-
-3\\\\. **Check Off Items**: As you study and practice, mark off checklist items to track your progress.
-
-4\\\\. **Explore Resources**: Browse through the `Resources` directory for recommended resources corresponding to each domain/topic.
-
-5\\\\. **Customize Your Plan**: Tailor your preparation plan based on your strengths, weaknesses, and the requirements of the companies you're targeting.
-
-6\\\\. **Community Learning**: Engage with fellow learners, share insights, ask questions, and collaborate on improving the roadmap together.
-
-7\\\\. **Stay Updated**: Periodically update your progress and revisit topics to reinforce your understanding and skills.
+1. **Pick a domain** in [Domains and Topics](#domains-and-topics) and open its checklist.
+2. **Study P0 topics first**, then P1, then P2.
+3. **Check off a topic** by changing `- [ ]` to `- [x]` in this README and committing. The progress bars update automatically.
+4. **Add notes** as Markdown files inside the matching domain folder (for example, `Data Structures/Arrays.md`) and link them from the checklist.
+5. **Rate yourself** with the interview-readiness assessment and revisit anything below 3.
 
 ## Contributions
 
@@ -1892,7 +1884,7 @@ Contributions are welcome! If you have suggestions for improving the roadmap, ad
 
 ## Disclaimer
 
-This roadmap is intended as a general guideline and may not cover every aspect of SDE interviews. It's essential to supplement my preparation with additional resources and adapt based on individual needs and experiences.
+This roadmap is intended as a general guideline and may not cover every aspect of SDE interviews. It's essential to supplement your preparation with additional resources and adapt based on individual needs and experiences.
 
 ## Credits
 
